@@ -1,3 +1,9 @@
 # YahooSigninAutomationTestProject
-This project will test Yahoo sign in module parallelly with negative and positive data’s using Automation Testing technology such as Selenium, Eclipse IDE, Java Programming language, TestNG Framework, Chrome and Firefox WebDriver, Selenium Grid. 
+I used my own Windows 10 desktop computer as a Hub and also as a Node but with 2 different ports.
+Hub 
+  java -jar selenium-server-standalone-3.9.1.jar -role hub
+Nodes
+ ChromeNode: java -Dwebdriver.chrome.driver=C:\zip\exe\chromedriver_win32v1\chromedriver.exe -jar selenium-server-standalone-3.9.1.jar -role node -hub http://192.168.1.10:4444/grid/register -port 5555
+ FirefoxNode: java -Dwebdriver.gecko.driver=C:\zip\exe\geckodriver-v0.30.0-win64\geckodriver.exe -jar selenium-server-standalone-3.9.1.jar -role node -hub http://192.168.1.10:4444/grid/register -port 5556
+
 
