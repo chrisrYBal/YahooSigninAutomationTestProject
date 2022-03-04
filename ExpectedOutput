@@ -1,0 +1,16 @@
+Chrome
+Password Expected and Actual Error Message Matched:
+Invalid password. Please try again
+Firefox
+Password Expected and Actual Error Message Matched:
+Invalid password. Please try again
+Chrome
+Email Expected and Actual Error Message Matched:
+Sorry, we don't recognize this email.
+Firefox
+Email Expected and Actual Error Message Matched:
+Sorry, we don't recognize this email.
+
+===============================================
+Test Grid
+Total tests run: 22, Passes: 22, Failures: 0, Skips: 0
