@@ -1,2 +1,4 @@
 # YahooSigninAutomationTestProject
-The purpose of this project is to showcase my knowledge base on what I learned from self studying Selenium WebDriver and also to pursue a career in Automation Testing.
+Download for better quality of the video.
+
+https://drive.google.com/file/d/1a9qKeDZikMWeh0xBKca7cCcYAvd2DhSz/view?usp=sharing
