@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Test_Grid" class="navigator-link">
+              <span class="suite-name border-passed">Test Grid</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Test_Grid" class="navigator-link ">
+                    <span>C:\Users\Rose Anne\eclipse-workspace\SeleniumProject\config\GRID.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Test_Grid" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Test_Grid" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Test_Grid" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Test_Grid" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Test_Grid" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Test_Grid" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Grid" class="hide-methods passed suite-Test_Grid"> (hide)</a> <!-- hide-methods passed suite-Test_Grid -->
+                      <a href="#" panel-name="suite-Test_Grid" class="show-methods passed suite-Test_Grid"> (show)</a> <!-- show-methods passed suite-Test_Grid -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Grid">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="InputValidEmail">InputValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="InputValidEmail">InputValidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="InputValidPassword">InputValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="InputValidPassword">InputValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="InputWrongPassword">InputWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="InputWrongPassword">InputWrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="SigninButton">SigninButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="SigninButton">SigninButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="TestSavedAccount">TestSavedAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="TestSavedAccount">TestSavedAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="TestSignout">TestSignout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="TestSignout">TestSignout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="nonexistentErrorMessage">nonexistentErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="nonexistentErrorMessage">nonexistentErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="pswrdTestErrorMessage">pswrdTestErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="pswrdTestErrorMessage">pswrdTestErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="testNonExistentEmail">testNonExistentEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="testNonExistentEmail">testNonExistentEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="testUseAnotherAccount">testUseAnotherAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="testUseAnotherAccount">testUseAnotherAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.ChromeNode" class="method navigator-link" hash-for-method="testonlyUsername">testonlyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Grid" title="Grid.FirefoxNode" class="method navigator-link" hash-for-method="testonlyUsername">testonlyUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Grid -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Grid" class="panel Test_Grid">
+          <div class="suite-Test_Grid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Grid.FirefoxNode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputValidEmail">
+                  </a> <!-- InputValidEmail -->
+                  <span class="method-name">InputValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputValidPassword">
+                  </a> <!-- InputValidPassword -->
+                  <span class="method-name">InputValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputWrongPassword">
+                  </a> <!-- InputWrongPassword -->
+                  <span class="method-name">InputWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SigninButton">
+                  </a> <!-- SigninButton -->
+                  <span class="method-name">SigninButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSavedAccount">
+                  </a> <!-- TestSavedAccount -->
+                  <span class="method-name">TestSavedAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSignout">
+                  </a> <!-- TestSignout -->
+                  <span class="method-name">TestSignout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nonexistentErrorMessage">
+                  </a> <!-- nonexistentErrorMessage -->
+                  <span class="method-name">nonexistentErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pswrdTestErrorMessage">
+                  </a> <!-- pswrdTestErrorMessage -->
+                  <span class="method-name">pswrdTestErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNonExistentEmail">
+                  </a> <!-- testNonExistentEmail -->
+                  <span class="method-name">testNonExistentEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUseAnotherAccount">
+                  </a> <!-- testUseAnotherAccount -->
+                  <span class="method-name">testUseAnotherAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testonlyUsername">
+                  </a> <!-- testonlyUsername -->
+                  <span class="method-name">testonlyUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Grid-class-passed -->
+          <div class="suite-Test_Grid-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Grid.ChromeNode</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputValidEmail">
+                  </a> <!-- InputValidEmail -->
+                  <span class="method-name">InputValidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputValidPassword">
+                  </a> <!-- InputValidPassword -->
+                  <span class="method-name">InputValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InputWrongPassword">
+                  </a> <!-- InputWrongPassword -->
+                  <span class="method-name">InputWrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SigninButton">
+                  </a> <!-- SigninButton -->
+                  <span class="method-name">SigninButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSavedAccount">
+                  </a> <!-- TestSavedAccount -->
+                  <span class="method-name">TestSavedAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSignout">
+                  </a> <!-- TestSignout -->
+                  <span class="method-name">TestSignout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="nonexistentErrorMessage">
+                  </a> <!-- nonexistentErrorMessage -->
+                  <span class="method-name">nonexistentErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pswrdTestErrorMessage">
+                  </a> <!-- pswrdTestErrorMessage -->
+                  <span class="method-name">pswrdTestErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNonExistentEmail">
+                  </a> <!-- testNonExistentEmail -->
+                  <span class="method-name">testNonExistentEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUseAnotherAccount">
+                  </a> <!-- testUseAnotherAccount -->
+                  <span class="method-name">testUseAnotherAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testonlyUsername">
+                  </a> <!-- testonlyUsername -->
+                  <span class="method-name">testonlyUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Grid-class-passed -->
+        </div> <!-- panel Test_Grid -->
+        <div panel-name="test-xml-Test_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rose Anne\eclipse-workspace\SeleniumProject\config\GRID.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Test Grid&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test Node1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Grid.ChromeNode&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Node1 --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test Node2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Grid.FirefoxNode&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Node2 --&gt;
+&lt;/suite&gt; &lt;!-- Test Grid --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Node1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test Node2 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Grid');
+function tableData_Test_Grid() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestSignout')
+data.setCell(0, 2, 'Grid.ChromeNode')
+data.setCell(0, 3, 11730);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestSignout')
+data.setCell(1, 2, 'Grid.FirefoxNode')
+data.setCell(1, 3, 10379);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'InputValidPassword')
+data.setCell(2, 2, 'Grid.FirefoxNode')
+data.setCell(2, 3, 9738);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'InputValidPassword')
+data.setCell(3, 2, 'Grid.ChromeNode')
+data.setCell(3, 3, 7916);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testUseAnotherAccount')
+data.setCell(4, 2, 'Grid.FirefoxNode')
+data.setCell(4, 3, 7024);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testonlyUsername')
+data.setCell(5, 2, 'Grid.FirefoxNode')
+data.setCell(5, 3, 6310);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testonlyUsername')
+data.setCell(6, 2, 'Grid.ChromeNode')
+data.setCell(6, 3, 6144);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testUseAnotherAccount')
+data.setCell(7, 2, 'Grid.ChromeNode')
+data.setCell(7, 3, 6125);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'SigninButton')
+data.setCell(8, 2, 'Grid.ChromeNode')
+data.setCell(8, 3, 5797);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'InputWrongPassword')
+data.setCell(9, 2, 'Grid.ChromeNode')
+data.setCell(9, 3, 5515);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'InputWrongPassword')
+data.setCell(10, 2, 'Grid.FirefoxNode')
+data.setCell(10, 3, 5136);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'InputValidEmail')
+data.setCell(11, 2, 'Grid.FirefoxNode')
+data.setCell(11, 3, 4279);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testNonExistentEmail')
+data.setCell(12, 2, 'Grid.FirefoxNode')
+data.setCell(12, 3, 4258);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'InputValidEmail')
+data.setCell(13, 2, 'Grid.ChromeNode')
+data.setCell(13, 3, 4158);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testNonExistentEmail')
+data.setCell(14, 2, 'Grid.ChromeNode')
+data.setCell(14, 3, 4137);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'SigninButton')
+data.setCell(15, 2, 'Grid.FirefoxNode')
+data.setCell(15, 3, 3926);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestSavedAccount')
+data.setCell(16, 2, 'Grid.FirefoxNode')
+data.setCell(16, 3, 3862);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestSavedAccount')
+data.setCell(17, 2, 'Grid.ChromeNode')
+data.setCell(17, 3, 3783);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'pswrdTestErrorMessage')
+data.setCell(18, 2, 'Grid.FirefoxNode')
+data.setCell(18, 3, 2033);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'nonexistentErrorMessage')
+data.setCell(19, 2, 'Grid.ChromeNode')
+data.setCell(19, 3, 2030);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'pswrdTestErrorMessage')
+data.setCell(20, 2, 'Grid.ChromeNode')
+data.setCell(20, 3, 2029);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'nonexistentErrorMessage')
+data.setCell(21, 2, 'Grid.FirefoxNode')
+data.setCell(21, 3, 2023);
+window.suiteTableData['Test_Grid']= { tableData: data, tableDiv: 'times-div-Test_Grid'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Test_Grid">
+              </div> <!-- times-div-Test_Grid -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Grid</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Grid" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SigninButton</span>
+                <span class="method-start">12068 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SigninButton</span>
+                <span class="method-start">17248 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">InputValidEmail</span>
+                <span class="method-start">17869 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">InputValidEmail</span>
+                <span class="method-start">21174 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">InputValidPassword</span>
+                <span class="method-start">22029 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">InputValidPassword</span>
+                <span class="method-start">25454 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestSignout</span>
+                <span class="method-start">29946 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestSignout</span>
+                <span class="method-start">35193 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestSavedAccount</span>
+                <span class="method-start">41677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InputWrongPassword</span>
+                <span class="method-start">45461 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">TestSavedAccount</span>
+                <span class="method-start">45573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InputWrongPassword</span>
+                <span class="method-start">49436 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">pswrdTestErrorMessage</span>
+                <span class="method-start">50978 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUseAnotherAccount</span>
+                <span class="method-start">53008 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">pswrdTestErrorMessage</span>
+                <span class="method-start">54573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUseAnotherAccount</span>
+                <span class="method-start">56607 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNonExistentEmail</span>
+                <span class="method-start">59134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">nonexistentErrorMessage</span>
+                <span class="method-start">63272 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNonExistentEmail</span>
+                <span class="method-start">63632 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testonlyUsername</span>
+                <span class="method-start">65303 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">nonexistentErrorMessage</span>
+                <span class="method-start">67891 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testonlyUsername</span>
+                <span class="method-start">69914 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.ChromeNode</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">71448 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Grid.FirefoxNode</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">76225 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

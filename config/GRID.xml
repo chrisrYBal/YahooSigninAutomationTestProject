@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng-org/testng-1.0.dtd">
+<suite name="Test Grid" parallel="tests">
+	<test name="Test Node1">
+		<classes>
+			<class name="Grid.ChromeNode" />
+		</classes>
+	</test>
+	<test name="Test Node2">
+		<classes>
+			<class name="Grid.FirefoxNode" />
+		</classes>
+	</test>
+</suite>

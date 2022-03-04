@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Test Grid]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test Node2(failed)">
+    <classes>
+      <class name="Grid.FirefoxNode">
+        <methods>
+          <include name="InputWrongPassword"/>
+          <include name="CloseBrowser"/>
+          <include name="TestSignout"/>
+          <include name="testUseAnotherAccount"/>
+          <include name="InputValidEmail"/>
+          <include name="testNonExistentEmail"/>
+          <include name="pswrdTestErrorMessage"/>
+          <include name="nonexistentErrorMessage"/>
+          <include name="testonlyUsername"/>
+          <include name="SigninButton"/>
+          <include name="InputValidPassword"/>
+          <include name="OpenBrowser"/>
+          <include name="TestSavedAccount"/>
+        </methods>
+      </class> <!-- Grid.FirefoxNode -->
+    </classes>
+  </test> <!-- Test Node2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test Node1(failed)">
+    <classes>
+      <class name="Grid.ChromeNode">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="InputWrongPassword"/>
+          <include name="SigninButton"/>
+          <include name="pswrdTestErrorMessage"/>
+          <include name="InputValidEmail"/>
+          <include name="TestSignout"/>
+          <include name="testNonExistentEmail"/>
+          <include name="testUseAnotherAccount"/>
+          <include name="testonlyUsername"/>
+          <include name="nonexistentErrorMessage"/>
+          <include name="InputValidPassword"/>
+          <include name="OpenBrowser"/>
+          <include name="TestSavedAccount"/>
+        </methods>
+      </class> <!-- Grid.ChromeNode -->
+    </classes>
+  </test> <!-- Test Node1(failed) -->
+</suite> <!-- Failed suite [Test Grid] -->
