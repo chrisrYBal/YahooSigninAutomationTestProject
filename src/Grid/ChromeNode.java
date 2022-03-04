@@ -58,7 +58,7 @@ public class ChromeNode {
   }
   @Test(dependsOnMethods= ("InputValidEmail"))
   public void InputValidPassword() throws InterruptedException {
-	  driver.findElement(By.xpath("//input[@id='login-passwd']")).sendKeys("Rosoideae");
+	  driver.findElement(By.xpath("//input[@id='login-passwd']")).sendKeys("*********");
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//button[@id='login-signin']")).click();
 	  Thread.sleep(2000);
@@ -87,7 +87,7 @@ public class ChromeNode {
   @Test(dependsOnMethods= ("TestSavedAccount"))
   public void InputWrongPassword() throws InterruptedException {
 	  try {
-		driver.findElement(By.xpath("//input[@id='login-passwd']")).sendKeys("Rosoi");
+		driver.findElement(By.xpath("//input[@id='login-passwd']")).sendKeys("*****");
 		  Thread.sleep(2000);
 		  driver.findElement(By.xpath("//button[@id='login-signin']")).click();
 		  Thread.sleep(2000);
