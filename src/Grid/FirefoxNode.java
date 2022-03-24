@@ -39,7 +39,7 @@ public class FirefoxNode {
   @Test
   public void SigninButton() throws InterruptedException {
 		try {
-			driver.findElement(By.xpath("//a[@class='_yb_1ana4']")).click();
+			driver.findElement(By.xpath("//a[contains(text(), 'Sign in')]")).click();
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -58,7 +58,7 @@ public class FirefoxNode {
   }
   @Test(dependsOnMethods= ("InputValidEmail"))
   public void InputValidPassword() throws InterruptedException {
-	  driver.findElement(By.xpath("//input[@id='login-passwd']")).sendKeys("*********");
+	  driver.findElement(By.xpath("//input[@id='login-passwd']")).sendKeys("Rosoideae");
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//button[@id='login-signin']")).click();
 	  Thread.sleep(2000);
@@ -66,9 +66,10 @@ public class FirefoxNode {
   @Test(dependsOnMethods= ("InputValidPassword"))
   public void TestSignout() throws InterruptedException {
 	  try {
-		driver.findElement(By.xpath("//span[@class='_yb_oza1t _yb_1c796 _yb_t4gjo']")).click();
+		  driver.findElement(By.xpath("//span[contains(text(), 'RYAN CHRISTIAN')]")).click();
 		  Thread.sleep(2000);
-		  driver.findElement(By.xpath("//span[@class='_yb_1cqr5 _yb_t4gjo _yb_2loff']")).click();
+		  driver.findElement(By.id("profile-signout-link")).click();
+		  Thread.sleep(2000);
 		  Thread.sleep(2000);
 		  SigninButton();
 	} catch (InterruptedException e) {
@@ -87,7 +88,7 @@ public class FirefoxNode {
   @Test(dependsOnMethods= ("TestSavedAccount"))
   public void InputWrongPassword() throws InterruptedException {
 	  try {
-		driver.findElement(By.xpath("//input[@id='login-passwd']")).sendKeys("*****");
+		driver.findElement(By.xpath("//input[@id='login-passwd']")).sendKeys("Rosoi");
 		  Thread.sleep(2000);
 		  driver.findElement(By.xpath("//button[@id='login-signin']")).click();
 		  Thread.sleep(2000);
